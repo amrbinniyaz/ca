@@ -43,66 +43,36 @@
 
     <div class="container-fluid">
        <!-- box-header -->
-        <header class="box-header">
-            <div class="box-logo">
-                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
-            </div>
-            <!-- box-nav -->
-            <a class="box-primary-nav-trigger" href="#0">
-                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
-            </a>
-            <!-- box-primary-nav-trigger -->
-        </header>
+        <?php include "header.php"; ?>
         <!-- end box-header -->
         
         <!-- nav -->
-        <nav>
-            <ul class="box-primary-nav">
-                <li class="box-label">About me</li>
-
-                <li><a href="index.html">Intro</a></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="portfolio.html">portfolio</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="contact.html">contact me</a></li>
-
-
-
-                <li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
-            </ul>
-        </nav>
+         <?php include "navbar.php"; ?>
         <!-- end nav -->
     </div>
     
     <!-- top-bar -->
     <div class="top-bar">
-        <h1>project title</h1>
-        <p><a href="#">Home</a> / <a href="#">portfolio</a> / project title</p>
+        <h1>Web Development</h1>
+        <p><a href="#">Home</a> / <a href="#">portfolio</a> / Web development</p>
     </div>
     <!-- end top-bar -->
     
     <!-- main-container -->
     <div class="container main-container">
         <div class="col-md-12">
-            <img src="http://placehold.it/1920x1080" alt="" class="img-responsive" />
+            <img src="img/webdevelopment.jpg" alt="" class="img-responsive" />
             <div class="h-30"></div>
         </div>
 
         <div class="col-md-12">
-            <h3 class="text-uppercase">project title</h3>
-            <h5>Creative & Lorem ipsum dolor sit amet</h5>
+            <h3 class="text-uppercase">Web Development</h3>
+            <h5>Responsive Website Development</h5>
             <div class="h-30"></div>
         </div>
 
         <div class="col-md-9">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia-, bene laudata virtus voluptatis aditus ultimum cum ultimo sapientiae Et nemo nimium beatus est </p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia </p>
+            <p>Take your business forward with customized and flexible web solutions. Otwo has an impressive website development portfolio that makes us the leader in this segment. With years of experience in this industry, expert personnel at Otwo offer service to suit your requirements. We make use of advanced tools and cutting-edge technology to deliver innovative designs no matter which business segment you belong to. Customized web development ensures that your business is well represented effectively through your website. Innovative and interactive patterns are used for improving accessibility, thereby improving online traffic. </p>
         </div>
 
         <div class="col-md-3">
@@ -126,11 +96,7 @@
 
 
     <!-- footer -->
-    <footer>
-        <div class="container-fluid">
-            <p class="copyright">© Box Portfolio 2016</p>
-        </div>
-    </footer>
+    <?php include "footer.php"; ?>
     <!-- end footer -->
     
     <!-- back to top -->

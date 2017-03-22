@@ -43,39 +43,11 @@
 
     <div class="container-fluid">
         <!-- box header -->
-        <header class="box-header">
-            <div class="box-logo">
-                <a href="index.html"><img src="img/" width="80" alt="Logo"></a>
-            </div>
-            <!-- box-nav -->
-            <a class="box-primary-nav-trigger" href="#0">
-                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
-            </a>
-            <!-- box-primary-nav-trigger -->
-        </header>
+         <?php include "header.php"; ?>
         <!-- end box header -->
 
         <!-- nav -->
-        <nav>
-            <ul class="box-primary-nav">
-                <li class="box-label">About me</li>
-
-                <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="portfolio.html">portfolio</a></li>
-                <li><a href="contact.html">contact me</a></li>
-
-
-
-                <li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
-            </ul>
-        </nav>
+        <?php include "navbar.php"; ?>
         <!-- end nav -->
 
         <!-- box-intro -->
@@ -104,13 +76,13 @@
             <div class="no-padding portfolio_container">
                 <!-- single work -->
                 <div class="col-md-3 col-sm-6  fashion logo">
-                    <a href="single-project.html" class="portfolio_item">
+                    <a href="webdevelopment.php" class="portfolio_item">
                         <img src="img/javadeveloper1.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
-                                    <span>Mockups in seconds</span>
-                                    <em>Fashion / Logo</em>
+                                    <span>WEB DEVELOPEMENT</span>
+                                    <em>View More</em>
                                 </div>
                             </div>
                         </div>
@@ -120,13 +92,13 @@
 
                 <!-- single work -->
                 <div class="col-md-3 col-sm-6 ads graphics">
-                    <a href="single-project.html" class="portfolio_item">
+                    <a href="single-project.php" class="portfolio_item">
                         <img src="img/seo.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
-                                    <span>Floating mockups</span>
-                                    <em>Ads / Graphics</em>
+                                    <span>SEO</span>
+                                    <em>View More</em>
                                 </div>
                             </div>
                         </div>
@@ -136,29 +108,29 @@
 
                 <!-- single work -->
                 <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
+                    <a href="single-project.php" class="portfolio_item">
                         <img src="img/Corporate-Website-Design.jpg" alt="image" class="img-responsive" style="width:100%" />
-                        <div class="portfolio_item_hover">
+                       <!-- <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
                                     <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
+                                    <em>View More</em>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </a>
                 </div>
                 <!-- end single work -->
 
                 <!-- single work -->
                 <div class="col-md-3 col-sm-6 fashion ads">
-                    <a href="single-project.html" class="portfolio_item">
+                    <a href="single-project.php" class="portfolio_item">
                         <img src="img/hosting.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
-                                    <span>Held by hands</span>
-                                    <em>Fashion / Ads</em>
+                                    <span>WEB HOSTING</span>
+                                    <em>View More</em>
                                 </div>
                             </div>
                         </div>
@@ -168,13 +140,13 @@
 
                 <!-- single work -->
                 <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
+                    <a href="single-project.php" class="portfolio_item">
                         <img src="img/design.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
+                                    <span>MOBILE DEVICES</span>
+                                    <em>View More</em>
                                 </div>
                             </div>
                         </div>
@@ -269,11 +241,7 @@
     <!-- end portfolio div -->
 
     <!-- footer -->
-    <footer>
-        <div class="container-fluid">
-            <p class="copyright">© Amr bin Niyaz Portfolio 2017</p>
-        </div>
-    </footer>
+     <?php include "footer.php"; ?>
     <!-- end footer -->
 
     <!-- back to top -->

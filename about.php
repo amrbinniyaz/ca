@@ -45,7 +45,7 @@
        <!-- box-header -->
         <header class="box-header">
             <div class="box-logo">
-                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+                <a href="index.php"><img src="img/logo.png" width="80" alt="Logo"></a>
             </div>
             <!-- box-nav -->
             <a class="box-primary-nav-trigger" href="#0">
@@ -55,24 +55,7 @@
         <!-- end box-header -->
         
         <!-- nav -->
-        <nav>
-            <ul class="box-primary-nav">
-                <li class="box-label">About me</li>
-                
-                <li><a href="index.html">Intro</a></li>
-                <li><a href="about.html">About me</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="portfolio.html">portfolio</a></li>
-                <li><a href="contact.html">contact me</a></li>
-
-                <li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
-            </ul>
-        </nav>
+       <?php include "navbar.php"; ?>
         <!-- end nav -->  
     </div>
     
@@ -99,10 +82,10 @@
  </p>
             <div class="h-10"></div>
             <ul class="social-ul">
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
+                <li class="box-social"><a href="https://www.facebook.com/amr.niyas"><i class="ion-social-facebook"></i></a></li>
+                <li class="box-social"><a href="https://www.instagram.com/amr_niyaz/?hl=en"><i class="ion-social-instagram-outline"></i></a></li>
+                <li class="box-social"><a href="https://twitter.com/amr_niyaz"><i class="ion-social-twitter"></i></a></li>
+                <li class="box-social"><a href="https://www.linkedin.com/in/amr-bin-niyaz/"><i class="ion-social-dribbble"></i></a></li>
             </ul>
 
 
@@ -112,11 +95,7 @@
 
 
     <!-- footer -->
-    <footer>
-        <div class="container-fluid">
-            <p class="copyright">© Box Portfolio 2016</p>
-        </div>
-    </footer>
+     <?php include "footer.php"; ?>
     <!-- end footer -->
     
     <!-- back to top -->

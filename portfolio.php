@@ -43,36 +43,11 @@
 
     <div class="container-fluid">
         <!-- box-header -->
-        <header class="box-header">
-            <div class="box-logo">
-                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
-            </div>
-            <!-- box-nav -->
-            <a class="box-primary-nav-trigger" href="#0">
-                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
-            </a>
-        </header>
+        <?php include "header.php"; ?>
         <!-- end box-header -->
 
         <!-- nav -->
-        <nav>
-            <ul class="box-primary-nav">
-                <li class="box-label">About me</li>
-
-                <li><a href="index.html">Intro</a></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="portfolio.html">portfolio</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="contact.html">contact me</a></li>
-
-                <li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
-            </ul>
-        </nav>
+         <?php include "navbar.php"; ?>
         <!-- end nav -->
     </div>
 
@@ -112,8 +87,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Mockups in seconds</span>
-                                        <em>Fashion / Logo</em>
+                                        <span>Traval and Tourism</span>
+                                        <em>View</em>
                                     </div>
                                 </div>
                             </div>
@@ -128,8 +103,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Floating mockups</span>
-                                        <em>Ads / Graphics</em>
+                                        <span>Business</span>
+                                        <em>View</em>
                                     </div>
                                 </div>
                             </div>
@@ -144,8 +119,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Photorealistic smartwatch</span>
-                                        <em>Photography</em>
+                                        <span>Education</span>
+                                        <em>View</em>
                                     </div>
                                 </div>
                             </div>
@@ -160,8 +135,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Held by hands</span>
-                                        <em>Fashion / Ads</em>
+                                        <span>Education</span>
+                                        <em>View</em>
                                     </div>
                                 </div>
                             </div>
@@ -176,8 +151,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Mobile devices</span>
-                                        <em>Graphics / Ads</em>
+                                        <span>Web Application</span>
+                                        <em>View</em>
                                     </div>
                                 </div>
                             </div>
@@ -192,8 +167,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Photorealistic smartwatch</span>
-                                        <em>Photography</em>
+                                        <span>Medical Travel</span>
+                                        <em>View</em>
                                     </div>
                                 </div>
                             </div>
@@ -208,8 +183,8 @@
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Mobile devices</span>
-                                        <em>Graphics / Ads</em>
+                                        <span>E-Commerce</span>
+                                        <em>View</em>
                                     </div>
                                 </div>
                             </div>
@@ -225,7 +200,7 @@
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
                                         <span>Mobile devices</span>
-                                        <em>Graphics / Ads</em>
+                                        <em>View</em>
                                     </div>
                                 </div>
                             </div>
@@ -241,7 +216,7 @@
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
                                         <span>Mobile devices</span>
-                                        <em>Graphics / Ads</em>
+                                        <em>View</em>
                                     </div>
                                 </div>
                             </div>
@@ -260,11 +235,7 @@
 
 
     <!-- footer -->
-    <footer>
-        <div class="container-fluid">
-            <p class="copyright">© Amr bin Niyaz Portfolio 2016</p>
-        </div>
-    </footer>
+    <?php include "footer.php"; ?>
     <!-- end footer -->
 
     <!-- back to top -->
